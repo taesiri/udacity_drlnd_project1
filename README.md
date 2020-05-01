@@ -12,9 +12,9 @@ The agent is moving on a 2D surface, surrounded by walls from each side. The age
 
 A ``37`` dimensional vectors, contains Velocity of the Agent and sensory information about objects in the vicinity of the Agent.
 
-Sample observation looks like this : 
+Sample observation looks like this :
 
-```
+```python
  1.         0.         0.         0.         0.84408134 0.
  0.         1.         0.         0.0748472  0.         1.
  0.         0.         0.25755    1.         0.         0.
@@ -22,7 +22,6 @@ Sample observation looks like this :
  0.25854847 0.         0.         1.         0.         0.09355672
  0.         1.         0.         0.         0.31969345 0.
  0.        
- 
  ```
 
 ### Action Space
@@ -45,12 +44,12 @@ The Environment is considered solved if the average score for ``100`` consecutiv
 1. Use ``Navigation-Train.ipynb`` notebook for Training.
 1. Use ``Navigation-Test.ipynb`` notebook for testing trained agents.
 1. For Report check out ``Report.ipynb`` notebook.
-1. ``Benchmark.ipynb`` notebook contains code for performing Benchmarks. 
+1. ``Benchmark.ipynb`` notebook contains code for performing Benchmarks.
 
 ### Scripts file
 
 1. ``agents.py`` contains a code for a Generic Q Agent.
-1. ``brains.py`` contains the definition of Neural Networks (Brains) used inside an Agent. 
+1. ``brains.py`` contains the definition of Neural Networks (Brains) used inside an Agent.
 
 ### Folders
 
@@ -88,7 +87,7 @@ It is highly recommended to create a separate python environment for running cod
 	
 3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
-git clone https://github.com/taesiri/drlnd-project-1.git
+git clone https://github.com/taesiri/udacity_drlnd_project1
 cd drlnd-project-1/
 pip install .
 ```
