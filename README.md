@@ -1,4 +1,4 @@
-# Project 1 - Udacity Deep Reinforcement Learning Nando Degree
+# Project 1 - Udacity Deep Reinforcement Learning Nanodegree
 
 ## Collecting Bananas with Deep Q Networks!
 
